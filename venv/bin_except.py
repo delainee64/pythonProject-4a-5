@@ -4,11 +4,9 @@
 # Description: Modify the binary search function from the exploration so that,
 # instead of returning -1 when the target value is not in the list, raises
 # a TargetNotFound exception (you'll need to define this exception class).
-
 class TargetNotFound(Exception):
     """User-defined exception when target isn't found."""
     pass
-
 
 def bin_except(a_list, target):
     """
